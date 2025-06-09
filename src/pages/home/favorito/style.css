@@ -1,0 +1,52 @@
+header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
+.cartoes{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    display: inline;
+}
+.cartao{
+    background-color: #b2f2bb;
+    padding: 6px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 0;
+    width: 155px;
+    height: 270px;
+    align-items: center;
+    margin-top: 25px ;
+    
+}
+.cartao:hover {
+    background-color: #28e241;
+    transform: scale(1.1);
+}
+
+
+.logo {
+    height: 80px;
+}
+.img{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+h1{
+    color: #28e241;
+}
+body{
+    background-color: black;
+}
